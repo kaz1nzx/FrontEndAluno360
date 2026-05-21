@@ -81,7 +81,7 @@ function ConsultaHobbies() {
                     <div className="alunos-lista-topo">
 
                         <div>
-                            <h2>Tarefas cadastradas</h2>
+                            <h2>Hobbies cadastrados</h2>
 
                             <p>
                                 Total de hobbies: {hobbies.length}
@@ -102,6 +102,7 @@ function ConsultaHobbies() {
                                     <th>Tempo Semanal</th>
                                     <th>Nível Habilidade</th>
                                     <th>Status</th>
+                                    <th>Ações</th>
                                     
 
                                 </tr>
@@ -118,9 +119,7 @@ function ConsultaHobbies() {
                                             <td>{hobbie.categoria}</td>
                                             <td>{hobbie.plataforma}</td>
                                             <td>{hobbie.tempoSemanal}</td>
-                                            <td>{hobbie.prazo}</td>
                                             <td>{hobbie.nivelHabilidade}</td>
-                                            <td>{hobbie.status}</td>
 
                                             <td>
                                                 <span className="alunos-status">
