@@ -106,19 +106,23 @@ function CadastroHobbies() {
                             onChange={(e) => setNome(e.target.value)}
                         />
 
-                        <input
-                            type="text"
-                            placeholder="Descrição"
+
+                        <p>Categoria:</p>
+                        <select
                             value={categoria}
                             onChange={(e) => setCategoria(e.target.value)}
-                        />
-                        <p>Data de Entrega:</p>
+                        >
+                            <option value="Game">Game</option>
+                            <option value="Esporte">Esporte</option>
+                            <option value="Música">Música</option>
+                            <option value="Leitura">Leitura</option>
+                        </select>
                         <input
-                            type="date"
-                            placeholder="Data de Entrega"
-                                value={plataforma}
-                                onChange={(e) => setPlataforma(e.target.value)}
-                            />
+                            type="text"
+                            placeholder="Plataforma"
+                            value={plataforma}
+                            onChange={(e) => setPlataforma(e.target.value)}
+                        />
 
                         <input
                             type="text"
@@ -137,15 +141,16 @@ function CadastroHobbies() {
                             value={status}
                             onChange={(e) => setStatus(e.target.value)}
                         >
-                            <option value="Ativo">Ativo</option>
-                            <option value="Inativo">Inativo</option>
+                            <option value="Meu Favorito">Meu Favorito</option>
+                            <option value="Mais ou Menos">Mais ou Menos</option>
+                            <option value="Paia">Paia</option>
                         </select>
 
                         <button
                             className="alunos-botao-salvar"
                             onClick={salvarMeta}
                         >
-                            {id ? 'Salvar alterações' : 'Cadastrar meta'}
+                            {id ? 'Salvar alterações' : 'Cadastrar hobbie'}
                         </button>
 
                         <button
