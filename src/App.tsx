@@ -27,6 +27,9 @@ import ConsultaEventos from './pages/ConsultaEventos'
 import CadastroHobbies from './pages/CadastroHobbies'
 import ConsultaHobbies from './pages/ConsultaHobbies'
 
+import CadastroConquistas from './pages/CadastroConquistas'
+import ConsultaConquistas from './pages/ConsultaConquistas'
+
 
 
 function App() {
@@ -139,6 +142,21 @@ function App() {
           path="/hobbies/editar/:id"
           element={<CadastroHobbies />}
         />
+
+        <Route
+          path="/conquistas/cadastro"
+          element={<CadastroConquistas />}
+        />
+        
+        <Route
+          path="/conquistas/consulta"
+          element={<ConsultaConquistas />}
+        />
+        <Route
+          path="/conquistas/editar/:id"
+          element={<CadastroConquistas />}
+        />
+
       </Routes>
 
     </BrowserRouter>
