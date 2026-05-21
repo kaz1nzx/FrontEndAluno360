@@ -99,7 +99,6 @@ function ConsultaEventos() {
                                     <th>Data</th>
                                     <th>Horário</th>
                                     <th>Tipo</th>
-                                    <th>Status</th>
                                     <th>Ações</th>
                                 </tr>
                             </thead>
@@ -116,7 +115,10 @@ function ConsultaEventos() {
                                             <td>{evento.data}</td>
                                             <td>{evento.horario}</td>
                                             <td>{evento.tipo}</td>
-                                            <td>{evento.status}</td>
+
+                                            
+                
+
 
                                             <td>
                                                 <div className="alunos-acoes">
