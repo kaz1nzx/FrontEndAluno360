@@ -117,7 +117,13 @@ function ConsultaCursos() {
                                             <td>{curso.cargaHoraria}</td>
                                             <td>{curso.area}</td>
                                             <td>{curso.nivel}</td>
-                                            <td>{curso.status}</td>
+                                            
+
+                                             <td>
+                                                <span className="alunos-status">
+                                                    {curso.status}
+                                                </span>
+                                            </td>
 
                                             <td>
                                                 <div className="alunos-acoes">
