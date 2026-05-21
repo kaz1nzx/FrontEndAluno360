@@ -66,7 +66,7 @@ function Logado() {
         {
             titulo: 'Conquistas',
             descricao: 'Registrar conquistas e pontuações dos alunos',
-            rota: '/conquistas',
+            rota: '/conquistas/consulta',
             icone: '🏆'
         },
     ]
