@@ -124,9 +124,9 @@ function CadastroCursos() {
                             value={area}
                             onChange={(e) => setArea(e.target.value)}
                         >
-                            <option value="Ciências Exatas">Programação</option>
-                            <option value="Ciências Humanas">Redes</option>
-                            <option value="Ciências da Saúde">Design</option>
+                            <option value="Programação">Programação</option>
+                            <option value="Redes">Redes</option>
+                            <option value="Design">Design</option>
                         </select>
 
                         <input
