@@ -118,7 +118,7 @@ function ConsultaMetas() {
                                             <td>{meta.categoria}</td>
                                             <td>{meta.prazo}</td>
                                             <td>{meta.progresso}</td>
-                                            <td>{meta.status}</td>
+                                            
 
                                             <td>
                                                 <span className="alunos-status">
