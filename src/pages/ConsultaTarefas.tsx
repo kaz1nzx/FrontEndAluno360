@@ -118,7 +118,7 @@ function ConsultaTarefas() {
                                             <td>{tarefa.materia}</td>
                                             <td>{tarefa.dataEntrega}</td>
                                             <td>{tarefa.prioridade}</td>
-                                            <td>{tarefa.status}</td>
+                                            
                                             
                                             <td>
                                                 <span className="alunos-status">
